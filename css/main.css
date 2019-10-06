@@ -4,7 +4,26 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
+    opacity: 1;
     /*border: 1px solid red;*/
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+#scrollTop {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5F9EA0;
 }
 
 .header {
@@ -33,7 +52,7 @@ a, i {
 }
 
 .menu li {
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 25px;
     list-style-type: none;
 }
@@ -42,12 +61,13 @@ a, i {
     color: #fff
 }
 
-.contact {
+.contact-footer {
     margin-left: auto;
 }
 
-.contact a {
+.contact-footer a {
     color: #fff;
+
 }
 
 
@@ -88,6 +108,7 @@ a, i {
 }
 
 .experience {
+    opacity: 1;
     width: 1140px;
     margin: 0 auto;
 }
@@ -146,10 +167,11 @@ a, i {
     color: #000;
     background: #fff;
     width: auto;
-    height: 650px;
+    height: 720px;
 }
 
 .projects {
+    opacity: 1;
     width: 1140px;
     margin: 0 auto;
 }
@@ -157,7 +179,7 @@ a, i {
 .project-title {
     font-size: 21px;
     display: block;
-    padding-top: 70px;
+    padding-top: 130px;
     padding-bottom: 35px;
 }
 
@@ -182,90 +204,27 @@ a, i {
     font-weight: bolder;
 }
 
-.buttons {
-    display: flex;
-}
 
-.class-resume-button {
-    width: 50%;
-   
-}
-
-.class-contact-button {
-    width: 50%;
-   
-}
-
-.resume-button {
-    font-size: 15px;
-    border-radius: 10px;
-    border-color: #343a40;
-    height: 55%;
-    width: 17%;
-    color: #fff;
-    background-color: #343a40;
-    margin-top: 50px;
-    margin-left: 50%;
-}
-
-.test-class1 {
-    color: #fff;
+.div-span {
+    margin-bottom: 20px;
+    
 }
 
 
-.test-class2 {
-    color: #fff;
+.close {
+    margin-left: 90%;
 }
-
-.contact-button {
-    font-size: 15px;
-    border-radius: 10px;
-    border-color: #343a40;
-    height: 55%;
-    width: 17%;
-    color: #fff;
-    background-color: #343a40;
-    margin-top: 50px;
-    margin-left: 35%;
-}
-
-
-.resume {
-    width: auto;
-    background-color: #191919;
-    height: 600px;
-}
-
-
-.contacts {
-    background-color: #fff;
-    height: 600px;
-}
-
-
-
-.contacts-main {
-    width: 540px;
-    margin: 0 auto;
-}
-
-.contact-title {
-    color: #191919;
-    font-size: 23px;
-    display: block;
-    padding: 65px 20px;
-}
-
 
 
 
 .footer {
-    height: 200px;
+    height: 250px;
     width: auto;
     background-color: #191919;
 }
 
 .footer-main {
+    opacity: 1;
     width: 1140px;
     margin: 0 auto;
 }
@@ -273,7 +232,7 @@ a, i {
 .footer-text {
     font-size: 18px;
     display: block;
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -286,5 +245,10 @@ a, i {
 .icons a {
     color: #fff;
 }
+
+
+/* contact form start here */
+
+
 
 
